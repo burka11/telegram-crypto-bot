@@ -22,18 +22,18 @@ Currency List:
 /bitci /bittrex /cyrptology /bitfinex /btse
 
 Blockchain Networks List: /blockchain
-Coin Categories: /kategoriler
+Coin Categories: /categories
 
 Amounts of the Companies have:
-/btc_sirketler
-/eth_sirketler
+/btc_companies
+/eth_companies
 
-Total Coin Amount: /coin_sayisi
-Total Amounts of Coins: /toplam_miktar
-Total Volume of Coins: /toplam_hacim
-Dominance of Coins: /dominans
-Total Market Counts: /market_sayisi
-Changing Rate at Last 24 Hours: /degisim_yuzdesi
+Total Coin Amount: /coin_amounts
+Total Amounts of Coins: /total_amounts
+Total Volume of Coins: /total_volumes
+Dominance of Coins: /dominance
+Total Market Counts: /market_amounts
+Changing Rate at Last 24 Hours: /exchange_rate
 Margin Processes and Daily Volumes: /future
 
 

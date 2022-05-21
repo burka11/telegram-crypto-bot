@@ -31,7 +31,7 @@ def get_btcturk(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Borsa Güven Sıralaması: {trust_score_rank} \n Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
 
 
@@ -45,7 +45,7 @@ def get_binance(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Borsa Güven Sıralaması: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)
 
 def get_mxc(update,context):
@@ -58,7 +58,7 @@ def get_mxc(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Borsa Güven Sıralaması: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)   
 
 def get_okex(update,context):
@@ -71,7 +71,7 @@ def get_okex(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Borsa Güven Sıralaması: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)       
     
 def get_kucoin(update,context):
@@ -84,7 +84,7 @@ def get_kucoin(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Borsa Güven Sıralaması: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_gate(update,context):
@@ -97,7 +97,7 @@ def get_gate(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_crypto_com(update,context):
@@ -110,7 +110,7 @@ def get_crypto_com(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_gdax(update,context):
@@ -123,7 +123,7 @@ def get_gdax(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
 
 def get_bitrue(update,context):
@@ -136,7 +136,7 @@ def get_bitrue(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
 
 def get_huobi(update,context):
@@ -149,7 +149,7 @@ def get_huobi(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
 
 def get_bitmart(update,context):
@@ -162,7 +162,7 @@ def get_bitmart(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_ftx_spot(update,context):
@@ -175,7 +175,7 @@ def get_ftx_spot(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
 
 def get_kraken(update,context):
@@ -188,7 +188,7 @@ def get_kraken(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_bitfinex(update,context):
@@ -201,7 +201,7 @@ def get_bitfinex(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_bybit_spot(update,context):
@@ -214,7 +214,7 @@ def get_bybit_spot(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_latoken(update,context):
@@ -227,7 +227,7 @@ def get_latoken(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_binance_us(update,context):
@@ -240,7 +240,7 @@ def get_binance_us(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_phemex(update,context):
@@ -253,7 +253,7 @@ def get_phemex(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
 
 def get_btse(update,context):
@@ -266,7 +266,7 @@ def get_btse(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
 
 def get_gemini(update,context):
@@ -279,7 +279,7 @@ def get_gemini(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_bittrex(update,context):
@@ -292,7 +292,7 @@ def get_bittrex(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)    
     
 def get_cyrptology(update,context):
@@ -305,7 +305,7 @@ def get_cyrptology(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)        
 
 def get_hotbit(update,context):
@@ -318,7 +318,7 @@ def get_hotbit(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)   
 
 def get_paribu(update,context):
@@ -331,7 +331,7 @@ def get_paribu(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)   
                  
 
@@ -345,6 +345,6 @@ def get_bitci(update,context):
     image=url['image']
     trade_volume_24h_btc=url['trade_volume_24h_btc']
     trust_score_rank=url['trust_score_rank']
-    message=f'Borsa Adı: {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Adresi: {web_url} \n Kuruluş Yılı: {year_established} \n Ulke: {country} \n Logo: {image} \n 24 saatlik btc işlem hacmi: {trade_volume_24h_btc} \n  '
+    message=f'Stock Market Name : {name} \n Exchange Confidence Ranking: {trust_score_rank} \n  Web Address: {web_url} \n Foundation Year: {year_established} \n Country: {country} \n Logo: {image} \n 24-hour btc trading volume: {trade_volume_24h_btc} \n  '
     update.message.reply_text(message)   
                                   
