@@ -18,7 +18,7 @@ It allows you to easily access information such as the total number of coins own
 - log into telegram and run '/start' on your bot
 - You can see all the commands
 
-## Use Tools
+## Used Tools
 
 ### Used Api: 
  -Coingecko,
